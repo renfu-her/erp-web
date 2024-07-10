@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: case-boost
+    - name: erp.dev-vue.com
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.HOST }}

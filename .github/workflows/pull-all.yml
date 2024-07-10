@@ -21,4 +21,3 @@ jobs:
           php artisan migrate --force
           php artisan route:cache
           php artisan config:cache
-
